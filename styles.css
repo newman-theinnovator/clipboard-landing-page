@@ -10,6 +10,10 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     width: 100%;
 }
@@ -19,12 +23,14 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px auto;
+    margin: auto;
+    text-align: center;
+    background-image: url(./assets/bg-header-desktop.png);
 }
 
 .logo__wrapper {
     width: 8%;
-    margin-bottom: 60px;
+    margin: 60px auto;
 }
 
 h1, p {
@@ -47,10 +53,11 @@ h1, h2, h4 {
 }
 
 .download__button {
-    padding: 15px 45px;
+    padding: 30px 60px;
     margin: 15px 5px;
     border-radius: 50px;
     border: none;
+    font-size: 18px;
     color: #fff;
     font-weight: 600;
 }
@@ -92,7 +99,7 @@ h1, h2, h4 {
 
 .img-device__wrapper {
     width: 50%;
-    margin:auto;
+    margin: auto;
 }
 
 .tools {
@@ -145,7 +152,7 @@ footer {
 }
  
 .social__icon {
-    width: 30px;
+    margin-left: 20px;
 }
 
 .main__footer {
@@ -163,4 +170,85 @@ footer {
 
 .footer__link {
     margin: 0 20px;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    header {
+        background-image: url(./assets/bg-header-mobile.png);
+    }
+
+    .section__features {
+        flex-direction: column;
+    }
+
+    .computer__wrapper {
+        width: 500px;
+        margin: 100px auto;
+    }
+
+    .section__heading {
+        width: 650px;
+    }
+
+    .features {
+        margin: 0 auto;
+    }
+
+    h1, h2, h4, p {
+        text-align: center;
+    }
+    
+    .img-device__wrapper {
+        width: 80%;
+    }
+
+    .tools {
+        flex-direction: column;
+        width: 700px;
+    }
+
+    .tools__detail {
+        margin: 50px auto;
+    }
+
+    .tool-img__wrapper {
+        width: 50px;
+    }
+
+    .company__logos {
+        flex-direction: column;
+        width: 700px;
+    }
+
+    .company__logo {
+        margin: 50px auto;
+        width: 30%;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    footer {
+       width: 700px;
+    }
+
+    .main__footer {
+        flex-direction: column;
+    }
+
+    .footer__links {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .footer__link {
+        margin: 10px auto;
+    }
+
+    .social-media__profiles {
+        margin: 60px auto;
+        width: 60%;
+    }
 }
