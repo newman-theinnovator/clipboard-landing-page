@@ -9,3 +9,148 @@
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.logo__wrapper {
+    width: 8%;
+    margin-bottom: 60px;
+}
+
+h1, p {
+    /* text-align: center; */
+    line-height: 2.0;
+}
+
+.buttons {
+    display: flex;
+}
+
+.download__button {
+    padding: 15px 45px;
+    margin: 15px 5px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.ios__button {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac__button {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.section__heading {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.computer__wrapper {
+    width: 800px;
+    margin-left: -200px;
+}
+
+.section__features {
+    display: flex;
+    justify-content: center;
+}
+
+.features {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.feature__details {
+    margin-bottom: 50px;
+}
+
+.img-device__wrapper {
+    width: 50%;
+    margin:auto;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.tool-img__wrapper {
+    width: 60px;
+    margin-bottom: 50px;
+}
+
+.tools__detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+.company__logos {
+    display: flex;
+    margin: 200px auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+
+#webpage-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+footer {
+    width: 1200px;
+    margin: auto;
+}
+
+.social-media__profiles {
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.social__icon {
+    width: 30px;
+}
+
+.main__footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__links {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer__link {
+    margin: 0 20px;
+}
